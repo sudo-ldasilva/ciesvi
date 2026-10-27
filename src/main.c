@@ -86,7 +86,7 @@ int main(int argc, char *argv[]) {
     int ret = 0;
     FILE *input = NULL;
 
-    const Column columns[] = { COLUMN_TIME, COLUMN_GLAC_MEAN, COLUMN_GLAC_UPPER, COLUMN_GLAC_LOWER };
+    const Column columns[] = { /* COLUMN_TIME, */ COLUMN_GLAC_MEAN, COLUMN_GLOBAL_AVERAGE_SEA_LEVEL_CHANGE };
     const unsigned int columns_length = sizeof(columns) / sizeof(*columns);
 
     if (argc != 1) {
